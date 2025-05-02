@@ -80,7 +80,6 @@ The system is designed to **automatically test** the functionality of the CRM de
 PAT-Capstone/
 │
 ├── Pages/                           # POM Classes for Page Elements & Actions
-│   ├── __init__.py
 │   ├── login_page.py
 │   ├── inventory_page.py
 │   ├── cart_page.py
@@ -89,7 +88,6 @@ PAT-Capstone/
 │   └── login_cart_visible.py        # Optional: If modular visibility check split
 │
 ├── Tests/                           # All Pytest Test Cases
-│   ├── __init__.py
 │   ├── test_login.py
 │   ├── test_login_cookies.py
 │   ├── test_login_page.py
